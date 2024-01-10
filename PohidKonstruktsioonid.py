@@ -31,7 +31,7 @@ pikkus= 16.5
 kas_käib_koolis=True
 print("Muutuja",vanus,"on",type(vanus))
 print("Muutuja",pikkus,"on",type(pikkus))
-print("Muutuja",kas_käib_koolis,"on",type(kas_käib_koolis))
+print("Muutuja",kas_käib_koolis,"on",type(kas_käib_koolis     
 
 #3
 from random import * #kõik funktsioonid mis on moodulis
@@ -47,5 +47,12 @@ l=float(input("Ümbermõõt:"))
 d=round(l/pi,2)
 print("Läbimõõt=", d)
 
-
-
+print@..@
+   print(----)
+  print( \__/ )
+^^ "" ^^
+a1=randint(1,50)
+a2=randint(1,50)
+a3=randint(1,50)
+a4=randint(1,50)
+a5=randint(1,50)
