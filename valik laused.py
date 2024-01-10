@@ -24,3 +24,60 @@ else:
     print("Hinne 5")
 
 
+from random import *
+nimi=input("Mis on sinu nimi?") #upper()-"JUKU",lower()-"juku",capitalize()-"Juku"
+if nimi=="Juku":
+    print("Lähme kinno")
+    vanus=int(input("Kui vana sa oled"))
+    if vanus<0 or vanus>120:
+        vastus="Viga vanusega"
+    elif vanus<6:
+         vastus="tasuta"
+    elif vanus<14:
+        vastus="Lastepilet"
+    elif vanus<65:
+        vastus="täispilet"
+    elif vanus<120:
+        vastus="sooduspilet"
+    print("On vaja Jukule osta",vastus)
+else:
+    print("Joonistame")
+
+from random import *
+#2 Pinginaabrid
+
+n1=input("Esimene nimi")
+n2=input("Teine nimi")
+if n1.upper()=="A" and n2.upper()=="B" or n1.upper()=="B" and n2.upper()=="A":
+    print("Pinginaabrid")
+else:
+    print("Nad ei ole naabrid")
+if n1.upper() in ["A","B"] and n2.upper() in ["A","B"]:
+    print("Pinginaabrid")
+else:
+    print("Nad ei ole naabrid")
+
+from random import *
+#3
+pikkus=float(input("Põranda pikkus"))
+laius=float(input("Põranda laius"))
+pindala=pikkus*laius
+print("Toa põranda pindala on:",pindala)
+valik=input("Kas tahad remondi teha? ")
+if valik.lower()=="jah":
+    hind=float(input("Kui palju maksab ruuymeeter?"))
+    summa=hind*pindala
+    print("Põranda vahetamise summa on",summa)
+
+
+
+
+
+
+
+
+
+
+
+
+
