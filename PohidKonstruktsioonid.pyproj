@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>97568af6-dab5-4fa5-85dc-4901c88273a2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Vigade otsing.py</StartupFile>
+    <StartupFile>valik laused.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="PohidKonstruktsioonid.py" />
+    <Compile Include="valik laused.py" />
     <Compile Include="Vigade otsing.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
