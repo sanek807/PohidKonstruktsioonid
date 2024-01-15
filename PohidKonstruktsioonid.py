@@ -48,12 +48,7 @@ l=float(input("Ümbermõõt:"))
 d=round(l/pi,2)
 print("Läbimõõt=", d)
 
-a1=randint(1,50)
-a2=randint(1,50)
-a3=randint(1,50)
-a4=randint(1,50)
-a5=randint(1,50)
-
+#5
 import math
 N=float(input("Sisestage lõigu pikkus meetrites (N): "))
 M=float(input("Sisestage krundi laius meetrites (M): "))
@@ -61,5 +56,72 @@ M=float(input("Sisestage krundi laius meetrites (M): "))
 diagonal_length = math.sqrt(N**2 + M**2)
 #väljund tulemus
 print(f"Ristkülikukujulise maatüki diagonaalpikkus: {diagonal_length} meetrit.")
+
+#6
+time = float(input("Mitu tundi reis kestis?"))
+tee_pikkus = float(input("Mitu kilomeetrit oled läbinud?"))
+kiirus = time / tee_pikkus
+print("Sinu kiirus oli " + str(kiirus) + " km/h")
+
+#7
+# Küsime kasutajalt viis täisarvu
+arv1 = int(input("Sisestage esimene arv: "))
+arv2 = int(input("Sisestage teine arv: "))
+arv3 = int(input("Sisestage kolmas arv: "))
+arv4 = int(input("Sisestage neljas arv: "))
+arv5 = int(input("Sisestage viies arv: "))
+
+# Arvutame aritmeetilise keskmise
+keskmine = (arv1 + arv2 + arv3 + arv4 + arv5) / 5
+
+# Väljastame tulemuse
+print("Sisestatud arvude aritmeetiline keskmine on:", keskmine)
+
+#8
+   print@..@
+   print(----)
+  print( \__/ )
+print^^ "" ^^
+
+#9
+# Sisestame kolmnurga külgede pikkused
+a = int(input("Sisestage esimese külje pikkus (a): "))
+b = int(input("Sisestage teise külje pikkus (b): "))
+c = int(input("Sisestage kolmanda külje pikkus (c): "))
+
+# Arvutame kolmnurga ümbermõõdu
+ümbermõõt = a + b + c
+
+# Väljastame tulemuse
+print("Kolmnurga ümbermõõt on:", ümbermõõt)
+
+#10
+# Pitsa hind
+pitsa_hind = 12.90
+
+# Jootraha protsent
+jootraha_protsent = 10
+
+# Arvutame jootraha summa
+jootraha_summa = (jootraha_protsent / 100) * pitsa_hind
+
+# Kogusumma iga sõbra kohta (pitsa hind + jootraha)
+kogusumma_üks_inimene = pitsa_hind + jootraha_summa
+
+# Küsime, mitu sõpra jagab arvet
+sõprade_arv = int(input("Mitu inimest jagab pitsa arvet? "))
+
+# Arvutame, kui palju igaüks peab maksma
+summa_iga_inimene = kogusumma_üks_inimene / sõprade_arv
+
+# Väljastame tulemuse
+print(f"Igaüks peab maksma {summa_iga_inimene:.2f} eurot.")
+
+
+
+
+
+
+
 
 
