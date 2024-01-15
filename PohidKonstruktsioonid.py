@@ -1,4 +1,5 @@
 from copyreg import pickle
+import math
 from operator import truediv
 from pickle import TRUE
 from xml.etree.ElementTree import PI
@@ -17,7 +18,7 @@ print(type(vanus))
 
 arv1=float(input("Arv 1: "))
 t=input("Tehe: ")
-t=input("Arv 2:"))
+t=input("Arv 2:")
 vastus=eval(str(arv1)+t+str(arv2))
 print("{0}{1}{2}={3}".format(arv1,t,arv2,vastus))
 
@@ -47,12 +48,18 @@ l=float(input("Ümbermõõt:"))
 d=round(l/pi,2)
 print("Läbimõõt=", d)
 
-print@..@
-   print(----)
-  print( \__/ )
-^^ "" ^^
 a1=randint(1,50)
 a2=randint(1,50)
 a3=randint(1,50)
 a4=randint(1,50)
 a5=randint(1,50)
+
+import math
+N=float(input("Sisestage lõigu pikkus meetrites (N): "))
+M=float(input("Sisestage krundi laius meetrites (M): "))
+#diagonaali pikkuse arvutamine
+diagonal_length = math.sqrt(N**2 + M**2)
+#väljund tulemus
+print(f"Ristkülikukujulise maatüki diagonaalpikkus: {diagonal_length} meetrit.")
+
+
