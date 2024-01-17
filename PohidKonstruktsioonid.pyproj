@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Kordused.py" />
     <Compile Include="PohidKonstruktsioonid.py" />
     <Compile Include="valik laused.py" />
     <Compile Include="Vigade otsing.py" />

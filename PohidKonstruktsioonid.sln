@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PohidKonstruktsioonid", "PohidKonstruktsioonid.pyproj", "{97568AF6-DAB5-4FA5-85DC-4901C88273A2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{95D23926-1903-4633-A98F-9DC8EFB9CA52}"
-	ProjectSection(SolutionItems) = preProject
-		Kordused.txt = Kordused.txt
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
