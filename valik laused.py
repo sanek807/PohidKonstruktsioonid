@@ -69,6 +69,17 @@ if valik.lower()=="jah":
     summa=hind*pindala
     print("Põranda vahetamise summa on",summa)
 
+from random import *
+#4
+alghind=randint(0,10000)/100 #0.00 - 1000.00
+if alghind>700:
+    soodustus=alghind*0.3
+    alghind-=soodustus
+    alghind*=0.7
+print("Uus hind on",alghind)
+
+
+
 
 
 
