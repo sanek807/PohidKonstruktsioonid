@@ -18,9 +18,29 @@
 #        mitu+=1
 #    if k==15: break
 
-A = int(input("Sisesta arv A: "))
+#2
+A = int(input("Введите число A: "))
 if A <= 0:
+    print("Введите натуральное число.")
+else:
     summa = sum(range(1, A + 1))
+    print(f"Сумма всех натуральных чисел от 1 до {A} равна: {summa}")
+
+#3
+from random import *
+p=1
+for i in range(8):
+    a=randint(-10,10)
+    print(a)
+    if a>0: p*=a
+    print(p)
+
+
+
+    
+
+
+
 
 
 
