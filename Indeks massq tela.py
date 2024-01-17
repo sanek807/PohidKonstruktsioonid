@@ -1,9 +1,35 @@
 ##1
-#for k in range(1.16):
+#print("1. variant")
+#K=0
+#mitu=0
+#while k<15:
+#    k+=1
 #    n=float(input("Sisesta arv nr. "+str(k)))
 #    if int(n)==float(n):
 #        mitu+=1
-#    if k==5: break
+
+#print("2. variant")
+#K=0
+#mitu=0
+#while True:
+#    k+=1
+#    n=float(input("Sisesta arv nr. "+str(k)))
+#    if int(n)==float(n):
+#        mitu+=1
+#    if k==15: break
+
+A = int(input("Sisesta arv A: "))
+if A <= 0:
+    summa = sum(range(1, A + 1))
+
+
+
+
+  
+
+
+
+    
 
 
 
@@ -20,18 +46,6 @@
 
 
     
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
