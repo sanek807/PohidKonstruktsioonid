@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>97568af6-dab5-4fa5-85dc-4901c88273a2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>valik laused.py</StartupFile>
+    <StartupFile>Indeks massq tela.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Kordused.py" />
+    <Compile Include="Indeks massq tela.py" />
     <Compile Include="PohidKonstruktsioonid.py" />
     <Compile Include="valik laused.py" />
     <Compile Include="Vigade otsing.py" />
