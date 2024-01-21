@@ -34,6 +34,7 @@ for i in range(8):
     print(a)
     if a>0: p*=a
     print(p)
+    
 
 
 
