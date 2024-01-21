@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>97568af6-dab5-4fa5-85dc-4901c88273a2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Indeks massq tela.py</StartupFile>
+    <StartupFile>Tsuklid.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,7 @@
   <ItemGroup>
     <Compile Include="Indeks massq tela.py" />
     <Compile Include="PohidKonstruktsioonid.py" />
+    <Compile Include="Tsuklid.py" />
     <Compile Include="valik laused.py" />
     <Compile Include="Vigade otsing.py" />
   </ItemGroup>
